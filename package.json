@@ -1,0 +1,20 @@
+{
+  "name": "to_do",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/jwt": "^8.0.0",
+    "fastify": "^4.26.1",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.1.0"
+  }
+}
